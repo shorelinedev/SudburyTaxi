@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest android:versionCode="1" android:versionName="1.0" package="appinventor.ai_m_hanhimaki.SudburyTaxi"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
     <uses-permission android:name="com.google.android.apps.googlevoice.permission.SEND_SMS" />
-    <uses-permission android:name="android.permission.ACCOUNT_MANAGER" />
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="com.google.android.apps.googlevoice.permission.RECEIVE_SMS" />
-    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <application android:label="SudburyTaxi" android:icon="@drawable/ya" android:debuggable="false">
         <activity android:name="appinventor.ai_m_hanhimaki.SudburyTaxi.valleyProviders" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateHidden">
